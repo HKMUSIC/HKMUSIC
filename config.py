@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 29791926
+API_HASH = "550ae225aaa88c599cf71983f40c86ac"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7925767932:AAGjnDsX3VD1RHc2FUvv0dWeuWB2SY8xz8A"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://HKMUSIC:<db_HKMUSIC@cluster0.vo9ib.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0mongodb+srv://HKMUSIC:<db_HKMUSIC@cluster0.vo9ib.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002342917994
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 6720017767
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/hkmusic4"
+SUPPORT_GROUP = "https://t.me/hkmusic4"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQHGlrYAasZng6kBWMn4bs80y1JvsDBXMPDgFE4lYBcHyKPLDW_nuurf0GcCWZMjB-E3JnxjE96yjCAWd4JMlUu3Kwc3hmnRfIC3kPmfLJf34ZLXtu0WqK8NuirpW1aJz-sH0q13xe0TiepcfSZS1mbgXgcDb77KYItPtexHvd4JeV-s2w4s6MA35nJeN8ow9KBxQ1uXhYGJF8TxcdGs35iCR2gAUznNoa9HgXsZ3_I1nq-yWm6H2GFUVo9XtP518SaV2gLi-MjgtDSyFbCqQ8Q1bYLNnZ_xqRikJqBlsnD07hh-kGqr7Yue-af-EGunznA7O7MzxMSMj2OyxiKOsL2yFmvyjgAAAAHYaZ78AQBQHGlrYAasZng6kBWMn4bs80y1JvsDBXMPDgFE4lYBcHyKPLDW_nuurf0GcCWZMjB-E3JnxjE96yjCAWd4JMlUu3Kwc3hmnRfIC3kPmfLJf34ZLXtu0WqK8NuirpW1aJz-sH0q13xe0TiepcfSZS1mbgXgcDb77KYItPtexHvd4JeV-s2w4s6MA35nJeN8ow9KBxQ1uXhYGJF8TxcdGs35iCR2gAUznNoa9HgXsZ3_I1nq-yWm6H2GFUVo9XtP518SaV2gLi-MjgtDSyFbCqQ8Q1bYLNnZ_xqRikJqBlsnD07hh-kGqr7Yue-af-EGunznA7O7MzxMSMj2OyxiKOsL2yFmvyjgAAAAHYaZ78AQ"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,20 +77,20 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+STATS_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+STREAM_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpghttps://graph.org/file/b9318f5a48122672b2192-27f14532e0b87f1eef.jpg"
 
 
 def time_to_seconds(time):
